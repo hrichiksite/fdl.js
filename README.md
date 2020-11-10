@@ -61,3 +61,5 @@ link = The link that you want to shorten
 
 ## If you like my code or have used it, please star my repo :smile:
 ## I :heart: JS
+
+### :star: FDLjs2 Releasing Soon 
