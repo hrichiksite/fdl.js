@@ -8,7 +8,7 @@
 FDLjs is a small javascript library to make firebase dynamic links in JavaScript. As there are no libraries are provided by Google for Firebase Dynamic Links creation, it make a bit difficult to create it with JS, I made this library so that everyone can use FDLs. 
 
 ## Very Tiny
-![File Size](https://img.shields.io/github/size/hrichiksite/fdljs/links.js?style=for-the-badge)
+![File Size](https://img.shields.io/github/size/hrichiksite/fdljs/src/links.js?style=for-the-badge)
 
 ## Can Work Alone
 ![No dependencies](https://img.shields.io/badge/Dependencies-0-green?style=for-the-badge)
