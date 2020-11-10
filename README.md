@@ -20,7 +20,7 @@ You can self Host it or use the our Fast CDN
 ### Install from CDN
 
 ```html
-<script src="https://getjs.now.sh/libs/hrichiksite/fdljs/links.js"></script>
+<script src="https://getjs.now.sh/libs/hrichiksite/fdl.js/links.js"></script>
 ```
 
 # Docs
