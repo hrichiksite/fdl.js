@@ -1,5 +1,5 @@
   
-  async function makefdl(key, st, si, sd, domain, link){
+function makefdl(key, st, si, sd, domain, link){
 	  
   var  bodydata = JSON.stringify({
 	"longDynamicLink": "https://"+ domain + "/?link=" + link + "&st=" + st + "&sd="+ sd + "&si=" + si,
@@ -26,7 +26,7 @@ xhr.send(bodydata);
 }
 
   
-  async function makedevfdl(key, st, si, sd, domain, link){
+function makedevfdl(key, st, si, sd, domain, link){
 	  
   var  bodydata = JSON.stringify({
 	"longDynamicLink": "https://"+ domain + "/?link=" + link + "&st=" + st + "&sd="+ sd + "&si=" + si,
