@@ -1,8 +1,12 @@
   
 function makefdl(key, st, si, sd, domain, link){
+	var title = encodeURIComponent(st);
+	var image = encodeURIComponent(si);
+	var discr = encodeURIComponent(sd);
+	
 	  
   var  bodydata = JSON.stringify({
-	"longDynamicLink": "https://"+ domain + "/?link=" + link + "&st=" + st + "&sd="+ sd + "&si=" + si,
+	"longDynamicLink": "https://"+ domain + "/?link=" + link + "&st=" + title + "&sd="+ discr + "&si=" + image,
 	"suffix": {
 		"option": "SHORT"
 	}
@@ -28,8 +32,13 @@ xhr.send(bodydata);
   
 function makedevfdl(key, st, si, sd, domain, link){
 	  
+	var title = encodeURIComponent(st);
+	var image = encodeURIComponent(si);
+	var discr = encodeURIComponent(sd);
+	
+	  
   var  bodydata = JSON.stringify({
-	"longDynamicLink": "https://"+ domain + "/?link=" + link + "&st=" + st + "&sd="+ sd + "&si=" + si,
+	"longDynamicLink": "https://"+ domain + "/?link=" + link + "&st=" + title + "&sd="+ discr + "&si=" + image,
 	"suffix": {
 		"option": "SHORT"
 	}
